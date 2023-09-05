@@ -1,0 +1,8 @@
+com/open/card/automation/page/base/BasePage.java
+ com.open.card.automation.page.base.BasePage
+com/open/card/automation/page/pageobjet/OpenCartHomePage.java
+ com.open.card.automation.page.pageobjet.OpenCartHomePage
+com/open/card/automation/page/steps/OpenCartHomePageStep.java
+ com.open.card.automation.page.steps.OpenCartHomePageStep
+com/open/card/automation/page/utils/SpecialMetods.java
+ com.open.card.automation.page.utils.SpecialMetods
