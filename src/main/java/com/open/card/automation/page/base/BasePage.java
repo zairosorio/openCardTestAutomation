@@ -14,7 +14,6 @@ import java.util.logging.Logger;
 
 public class BasePage extends PageObject {
 
-
     private JavascriptExecutor js;
     private static WebDriverWait wait;
     private static WebDriver webDriver;
@@ -72,10 +71,6 @@ public class BasePage extends PageObject {
 
     public void validarIgual(By elementBy, String expectedText) {
         Assert.assertEquals(this.obtenerTexto(elementBy), expectedText);
-    }
-
-    public WebElement elElemento(By by) {
-        return webDriver.findElement(by);
     }
 
     public void validarPresenciaDeObjeto(By elementBy) {

@@ -13,7 +13,7 @@ public class OpenCartHomePageStep extends BasePage {
 
 
     @Step
-    public void openTheBrowser() throws InterruptedException {
+    public void openTheBrowser() {
         configuracionesIniciales();
         abrirNavegadorEn();
 

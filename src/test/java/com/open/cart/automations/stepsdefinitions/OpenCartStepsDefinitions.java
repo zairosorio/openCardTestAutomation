@@ -18,8 +18,7 @@ public class OpenCartStepsDefinitions extends BasePage {
 
     @Given("^el usuario ingresa a la pagina$")
     public void elUsuarioIngresaALaPagina() throws Exception {
-        configuracionesIniciales();
-        abrirNavegadorEn();
+        openCartHomePageStep.openTheBrowser();
     }
 
     @When("^ingresar el producto \"([^\"]*)\" y buscar\\.$")
