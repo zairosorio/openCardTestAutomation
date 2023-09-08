@@ -14,10 +14,6 @@ public class OpenCartHomePage extends PageObject {
     public final By ver_carrito = By.xpath("//strong[text()=' View Cart']");
     public final By producto_en_carrito = By.xpath("(//td[@class='text-left']//a)[2]");
     public final By eliminar_del_carrito = By.cssSelector("i.fa.fa-times-circle");
-    public final By carrito_vicio = By.cssSelector("div#content>p");
-
-
-
-
+    public final By carrito_vacio = By.xpath("//div[@id='content']//p[(text()='Your shopping cart is empty!')]");
 
 }

@@ -58,7 +58,7 @@ public class OpenCartStepsDefinitions extends BasePage {
     }
 
     @Then("^Validar que el (.*) ya no se encuentre en el carrito de compras\\.$")
-    public void validarQueElYaNoSeEncuentreEnElCarritoDeCompras(String s) throws Exception {
+    public void validarQueElYaNoSeEncuentreEnElCarritoDeCompras(String msj) throws Exception {
         openCartHomePageStep.validoCarritoVacio();
     }
 

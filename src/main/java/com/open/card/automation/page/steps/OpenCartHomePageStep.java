@@ -50,9 +50,10 @@ public class OpenCartHomePageStep extends BasePage {
     public void eliminarProducto(){
         click(openCartHomePage.eliminar_del_carrito);
     }
+
     @Step
     public void validoCarritoVacio(){
-        validarPresenciaDeObjeto(openCartHomePage.carrito_vicio);
+        validarPresenciaDeObjeto(openCartHomePage.carrito_vacio);
     }
 
 
